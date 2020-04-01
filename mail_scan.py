@@ -51,7 +51,7 @@ def main():
         date, body = get_mail_body(raw_data)
         line = parse_data(date, body)
         all_requests.append(line)
-        write_csv(all_requests)
+    write_csv(all_requests)
         
 
 
